@@ -4,21 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <header>
-        <section class="lg:container mx-auto columns-2">
-            <div>
-                <h1 class="text-5xl font-bold">Stay Focused on</h1>
-                <span class="text-5xl font-bold text-orange-400">Mission 2024</span>
-                <p>Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli deterruisset. No duo populo animal noluisse, enim</p>
-                <button><a href="#">Explore Now</a></button>
-                <small>Scroll down to explore more about us</small>
+    <header class="lg:container xl:container mx-auto grid grid-cols-2 py-20 bg-red-100 py-20 pl-10">
+            <div class="content-center space-y-3">
+                <div class="border-l-4 border-red-600 pl-2">
+                    <h1 class="text-5xl font-bold">Stay Focused on</h1>
+                    <span class="text-5xl font-bold text-orange-400">Mission 2024</span>
+                </div>
+                <p class="w-1/2">Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli deterruisset. No duo populo animal noluisse, enim</p>
+                <button class="bg-red-500 py-2 px-10 rounded-lg"><a class="text-white" href="#">Explore Now</a></button> <br>
+                <p class="text-sm">Scroll down to explore more about us</p>
             </div>
-            <div>
-                <img class="w-72" src="../images/person/person-5.png" alt="person">
+            <div class="place-items-center">
+                <img class="w-80" src="../images/person/person-5.png" alt="person">
             </div>
-        </section>
     </header>
     <main></main>
     <footer></footer>
